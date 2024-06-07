@@ -1,4 +1,4 @@
-#1. Azure Prompt Flow 가장 쉬운 RAG
+#1. Azure Prompt Flow 가장 쉬운 RAG (Session1)
 
 > 경량화된 온디바이스 LLM
 > * Google Gemma
@@ -72,8 +72,26 @@ RAG
 
 https://bit.ly/2024buildkr
 
+8번 사용
 
+1. Azure AI > Machine Learning 스튜디오 > 프롬프트 흐름
+2. 우측 상단 복제 버튼 클릭 > 복제 진행 > Confirm 클릭
+3. 프롬프트 flow를 쓰면 lookup > 데이터 스토어에서 문서를 찾아옴
+4. 프롬프트 설계후 질문에 대한 답변을 받음
+5. 컴퓨팅 세션 시작 버튼을 눌러 실행을 할 수 있음
 
+Variant에 대해 System과 User에 대해 설정해서 답변 주는 내용에 대해 답변을 줄 수 있다.
+예시를 주면 줄 수 있음
+제공된 정보만 주고 절대 지어서는 안된다고 해야 됨
+
+temperature : 창의성률(0~1)
+낮추면 창의성 낮게, 높이면 창의성 높게
+
+max_tokens 토큰의 길이 : 1 ~ 512
+
+최초 input 질문을 적용하고 "실행" 버튼을 클릭하면 출력에 대해 비교를 할 수 있음
+
+lookup에서는 어떤 pdf에서 어떤 내용을 발췌해서 출력하는지를 찾을 수 있음
 
 
 
